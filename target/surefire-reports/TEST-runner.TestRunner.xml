@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="76.42" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja\target\test-classes;C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.50.0\selenium-java-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.50.0\selenium-api-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.50.0\selenium-chrome-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.50.0\selenium-chromium-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.50.0\selenium-json-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.50.0\selenium-manager-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.50.0\selenium-devtools-latest-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.50.0\selenium-devtools-v152-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.50.0\selenium-devtools-v153-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.50.0\selenium-devtools-v154-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.50.0\selenium-edge-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.50.0\selenium-firefox-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.50.0\selenium-http-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.50.0\selenium-ie-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.50.0\selenium-remote-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.50.0\selenium-os-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.50.0\selenium-safari-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.50.0\selenium-support-4.50.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Administrator\Downloads\eclipse-java-2025-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire12415554889103561244\surefirebooter-20261014005440846_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire12415554889103561244 2026-10-14T00-54-37_948-jvmRun1 surefire-20261014005440846_1tmp surefire_0-20261014005440846_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja\target\test-classes;C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.50.0\selenium-java-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.50.0\selenium-api-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.50.0\selenium-chrome-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.50.0\selenium-chromium-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.50.0\selenium-json-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.50.0\selenium-manager-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.50.0\selenium-devtools-latest-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.50.0\selenium-devtools-v152-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.50.0\selenium-devtools-v153-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.50.0\selenium-devtools-v154-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.50.0\selenium-edge-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.50.0\selenium-firefox-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.50.0\selenium-http-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.50.0\selenium-ie-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.50.0\selenium-remote-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.50.0\selenium-os-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.50.0\selenium-safari-driver-4.50.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.50.0\selenium-support-4.50.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Users\Administrator\Downloads\eclipse-java-2025-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire12415554889103561244\surefirebooter-20261014005440846_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+10-LTS"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.11+10"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace-Cucumber8Hours-QAFox\CucumberNinja"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Administrator\Downloads\eclipse-java-2025-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Administrator/Downloads/eclipse-java-2025-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin/server;C:/Users/Administrator/Downloads/eclipse-java-2025-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-25\bin;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\Downloads\eclipse-java-2025-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.11+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Login with valid credentials #1" classname="Login functionality" time="6.483">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                               &amp#27;[90m# src/test/resources/features/Login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1msagarraj05@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.User_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m767676&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_should_get_successfully_logged_in()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid credentials #2" classname="Login functionality" time="5.08">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                               &amp#27;[90m# src/test/resources/features/Login.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1msagarraj05@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.User_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m767676&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_should_get_successfully_logged_in()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid credentials #3" classname="Login functionality" time="4.27">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                               &amp#27;[90m# src/test/resources/features/Login.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1msagarraj05@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.User_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m767676&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_should_get_successfully_logged_in()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="Login functionality" time="6.516">
+    <system-out><![CDATA[
+Scenario: Login with invalid credentials                                   &amp#27;[90m# src/test/resources/features/Login.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid email address into email field&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"767676"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m            &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="4.193">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch(Login.java:79)
+	at ✽.User should get a proper warning message about credentials mismatch(file:///C:/Users/Administrator/eclipse-workspace-Cucumber8Hours-QAFox/CucumberNinja/src/test/resources/features/Login.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Login with valid email and invalid password                          &amp#27;[90m# src/test/resources/features/Login.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"sagarraj05@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.User_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"767676"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should get a proper warning message about credentials mismatch&amp#27;[0m     &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch(Login.java:79)
+	at ✽.User should get a proper warning message about credentials mismatch(file:///C:/Users/Administrator/eclipse-workspace-Cucumber8Hours-QAFox/CucumberNinja/src/test/resources/features/Login.feature:28)
+&amp#27;[0m
+
+    Embedding Login_with_valid_email_and_invalid_password [image/png 115769 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid email and valid password" classname="Login functionality" time="4.572">
+    <system-out><![CDATA[
+Scenario: Login with invalid email and valid password                      &amp#27;[90m# src/test/resources/features/Login.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid email address into email field&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"767676"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m              &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login without providing any credentails" classname="Login functionality" time="4.898">
+    <system-out><![CDATA[
+Scenario: Login without providing any credentails                          &amp#27;[90m# src/test/resources/features/Login.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter email address into email field&amp#27;[0m                      &amp#27;[90m# stepdefinitions.Login.user_dont_enter_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser dont enter password into password field&amp#27;[0m                         &amp#27;[90m# stepdefinitions.Login.user_dont_enter_password_into_password_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account only with mandatory fields" classname="Registration functionality" time="5.699">
+    <system-out><![CDATA[
+Scenario: User creates an account only with mandatory fields &amp#27;[90m# src/test/resources/features/Register.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m              &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m             &amp#27;[90m# stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Aruna      |
+    | lastName  | Moray      |
+    | telephone | 7865432345 |
+    | password  | 767676     |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                         &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m          &amp#27;[90m# stepdefinitions.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account with all fields" classname="Registration functionality" time="6.356">
+    <system-out><![CDATA[
+Scenario: User creates an account with all fields   &amp#27;[90m# src/test/resources/features/Register.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m    &amp#27;[90m# stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Aruna      |
+    | lastName  | Moray      |
+    | telephone | 7865432345 |
+    | password  | 767676     |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m               &amp#27;[90m# stepdefinitions.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates a duplicate account" classname="Registration functionality" time="9.214">
+    <system-out><![CDATA[
+Scenario: User creates a duplicate account                            &amp#27;[90m# src/test/resources/features/Register.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields with duplicate email&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_enters_the_details_into_below_fields_with_duplicate_email(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Aruna             |
+    | lastName  | Moray             |
+    | email     | aruna05@gmail.com |
+    | telephone | 7865432345        |
+    | password  | 767676            |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning about duplicate email&amp#27;[0m         &amp#27;[90m# stepdefinitions.Register.user_should_get_a_proper_warning_about_duplicate_email()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account without filling any details" classname="Registration functionality" time="5.861">
+    <system-out><![CDATA[
+Scenario: User creates an account without filling any details            &amp#27;[90m# src/test/resources/features/Register.feature:39&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any details into fields&amp#27;[0m                           &amp#27;[90m# stepdefinitions.Register.user_dont_enter_any_details_into_fields()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning messages for every mandatory field&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_should_get_proper_warning_messages_for_every_mandatory_field()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User searches for a valid product" classname="Search functionality" time="4.639">
+    <system-out><![CDATA[
+Scenario: User searches for a valid product                      &amp#27;[90m# src/test/resources/features/Search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m      &amp#27;[90m# stepdefinitions.Search.user_enters_valid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get valid product displayed in search results&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User searches for an invalid product" classname="Search functionality" time="3.208">
+    <system-out><![CDATA[
+Scenario: User searches for an invalid product                   &amp#27;[90m# src/test/resources/features/Search.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_enters_invalid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m       &amp#27;[90m# stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User searches without any product" classname="Search functionality" time="2.918">
+    <system-out><![CDATA[
+Scenario: User searches without any product                   &amp#27;[90m# src/test/resources/features/Search.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any product name into Search box field&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_dont_enter_any_product_name_into_search_box_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m    &amp#27;[90m# stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
